@@ -3,309 +3,151 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GitHub Weekly Digest · 2026-08-27</title>
+  <title>GitHub Weekly Digest</title>
   <style>
-    :root {
-      --bg: #0d1117;
-      --panel: #161b22;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --accent: #2f81f7;
-      --border: #30363d;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
-    header.top h1 { font-size: 28px; margin: 0 0 8px; }
-    header.top .meta { color: var(--muted); font-size: 14px; }
-    section.group { margin: 40px 0; }
-    section.group h2 {
-      font-size: 20px;
-      margin: 0 0 16px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border);
-    }
-    section.group h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
-    .grid {
-      display: grid;
-      gap: 16px;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    }
-    .repo {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      transition: transform .15s ease, border-color .15s ease;
-    }
-    .repo:hover { transform: translateY(-2px); border-color: var(--accent); }
-    .repo header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-    .repo h3 { margin: 0; font-size: 15px; }
-    .repo a { color: var(--accent); text-decoration: none; }
-    .repo a:hover { text-decoration: underline; }
-    .lang {
-      font-size: 12px;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 2px 8px;
-      white-space: nowrap;
-    }
-    .desc { margin: 0; color: #c9d1d9; font-size: 14px; min-height: 38px; }
-    .repo footer { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
-    .today { color: #f0883e; }
-    footer.bottom {
-      margin-top: 64px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 13px;
-      text-align: center;
-    }
-    footer.bottom a { color: var(--accent); text-decoration: none; }
+  :root {
+    --bg: #0d1117; --panel: #161b22; --text: #e6edf3;
+    --muted: #8b949e; --accent: #2f81f7; --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
+  header.top h1 { font-size: 28px; margin: 0 0 8px; }
+  header.top .meta { color: var(--muted); font-size: 14px; }
+  section.group { margin: 40px 0; }
+  section.group h2 {
+    font-size: 20px; margin: 0 0 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  section.group h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
+  .grid {
+    display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .repo {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .repo:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .repo header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .repo h3 { margin: 0; font-size: 15px; }
+  .repo a { color: var(--accent); text-decoration: none; }
+  .repo a:hover { text-decoration: underline; }
+  .lang {
+    font-size: 12px; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 8px; white-space: nowrap;
+  }
+  .desc { margin: 0; color: #c9d1d9; font-size: 14px; min-height: 38px; }
+  .repo footer { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
+  .today { color: #f0883e; }
+  footer.bottom {
+    margin-top: 64px; padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  footer.bottom a { color: var(--accent); text-decoration: none; }
+  .back { display: inline-block; color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .back:hover { color: var(--accent); }
+
+  .list { display: grid; gap: 16px; }
+  .entry {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .entry:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .entry header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 12px;
+  }
+  .entry h2 { margin: 0; font-size: 18px; }
+  .entry h2 a { color: var(--accent); text-decoration: none; }
+  .entry h2 a:hover { text-decoration: underline; }
+  .entry .meta { color: var(--muted); font-size: 13px; }
+  .entry .top3 {
+    display: grid; gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    margin-top: 12px;
+  }
+  .entry .item {
+    border-left: 2px solid var(--border);
+    padding: 4px 12px;
+  }
+  .entry .item a { color: var(--text); text-decoration: none; font-weight: 500; }
+  .entry .item a:hover { color: var(--accent); }
+  .entry .item p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
+  .badge {
+    display: inline-block; font-size: 11px;
+    color: var(--muted); border: 1px solid var(--border);
+    border-radius: 999px; padding: 2px 8px; margin-left: 6px;
+  }
+  .empty { color: var(--muted); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header class="top">
       <h1>📦 GitHub Weekly Digest</h1>
-      <div class="meta">生成于 2026-08-27 · 共 14 个项目</div>
+      <div class="meta">每周日北京时间 8:00 自动更新 · 共 1 期</div>
     </header>
 
-    
-    <section class="group">
-      <h2>AI / 大模型 / Agent <small>(12)</small></h2>
-      <div class="grid">
-        
-  <article class="repo">
-    <header>
-      <a href="https://github.com/duty1g/x64dbg-mcp-server" target="_blank" rel="noopener">
-        <h3>duty1g/x64dbg-mcp-server</h3>
-      </a>
-      <span class="lang">Zig</span>
-    </header>
-    <p class="desc">x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros</p>
-    <footer>
-      <span>⭐ 1,487</span>
-      <span>🍴 146</span>
-      <span class="today">🔥 1487 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/ApodexAI/FrontierAgent" target="_blank" rel="noopener">
-        <h3>ApodexAI/FrontierAgent</h3>
-      </a>
-      <span class="lang">Python</span>
-    </header>
-    <p class="desc">🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.</p>
-    <footer>
-      <span>⭐ 1,056</span>
-      <span>🍴 86</span>
-      <span class="today">🔥 1056 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/ShadowAqueduct/watermark-remover" target="_blank" rel="noopener">
-        <h3>ShadowAqueduct/watermark-remover</h3>
-      </a>
-      <span class="lang">Python</span>
-    </header>
-    <p class="desc">Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.</p>
-    <footer>
-      <span>⭐ 811</span>
-      <span>🍴 76</span>
-      <span class="today">🔥 811 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/Forsy-AI/biosecurity-agent" target="_blank" rel="noopener">
-        <h3>Forsy-AI/biosecurity-agent</h3>
-      </a>
-      <span class="lang">TypeScript</span>
-    </header>
-    <p class="desc">AI agent that builds a live biosecurity world around any target.</p>
-    <footer>
-      <span>⭐ 512</span>
-      <span>🍴 17</span>
-      <span class="today">🔥 512 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/amosblomqvist/learn" target="_blank" rel="noopener">
-        <h3>amosblomqvist/learn</h3>
-      </a>
-      <span class="lang">TypeScript</span>
-    </header>
-    <p class="desc">My AI learning system.</p>
-    <footer>
-      <span>⭐ 450</span>
-      <span>🍴 48</span>
-      <span class="today">🔥 450 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/kgoedecke/doop" target="_blank" rel="noopener">
-        <h3>kgoedecke/doop</h3>
-      </a>
-      <span class="lang">TypeScript</span>
-    </header>
-    <p class="desc">The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.</p>
-    <footer>
-      <span>⭐ 423</span>
-      <span>🍴 40</span>
-      <span class="today">🔥 423 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/halofyai/halofy" target="_blank" rel="noopener">
-        <h3>halofyai/halofy</h3>
-      </a>
-      <span class="lang">TypeScript</span>
-    </header>
-    <p class="desc">Halofy is the open access and governance layer for AI agents across your organization. Identity, policy, provenance, audit, and signed erasure.</p>
-    <footer>
-      <span>⭐ 380</span>
-      <span>🍴 4</span>
-      <span class="today">🔥 380 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/rome-os/rome" target="_blank" rel="noopener">
-        <h3>rome-os/rome</h3>
-      </a>
-      <span class="lang">TypeScript</span>
-    </header>
-    <p class="desc">Rome is the agentic OS.</p>
-    <footer>
-      <span>⭐ 366</span>
-      <span>🍴 21</span>
-      <span class="today">🔥 366 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/ChenShuo2004/cs-board" target="_blank" rel="noopener">
-        <h3>ChenShuo2004/cs-board</h3>
-      </a>
-      <span class="lang">Python</span>
-    </header>
-    <p class="desc">将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。</p>
-    <footer>
-      <span>⭐ 343</span>
-      <span>🍴 65</span>
-      <span class="today">🔥 343 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/GamePhanes/GamePhanes" target="_blank" rel="noopener">
-        <h3>GamePhanes/GamePhanes</h3>
-      </a>
-      <span class="lang">JavaScript</span>
-    </header>
-    <p class="desc">An open-source game coding agent environment and benchmark for Godot.</p>
-    <footer>
-      <span>⭐ 340</span>
-      <span>🍴 7</span>
-      <span class="today">🔥 340 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/bam-bam-2/solo-skills" target="_blank" rel="noopener">
-        <h3>bam-bam-2/solo-skills</h3>
-      </a>
-      <span class="lang">Python</span>
-    </header>
-    <p class="desc">1인 사업가 생산성 키트 — 직원 없이 49개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 26개(+실행 스크립트)를 공개합니다</p>
-    <footer>
-      <span>⭐ 316</span>
-      <span>🍴 78</span>
-      <span class="today">🔥 316 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/dragthelake/ambient-context" target="_blank" rel="noopener">
-        <h3>dragthelake/ambient-context</h3>
-      </a>
-      <span class="lang">Rust</span>
-    </header>
-    <p class="desc">A menu bar app that keeps a written record of what you worked on.</p>
-    <footer>
-      <span>⭐ 135</span>
-      <span>🍴 7</span>
-      <span class="today">🔥 135 stars total</span>
-    </footer>
-  </article>
-
-      </div>
-    </section>
-  
-    <section class="group">
-      <h2>编程 / 开发 / 开发者工具 <small>(2)</small></h2>
-      <div class="grid">
-        
-  <article class="repo">
-    <header>
-      <a href="https://github.com/bryllim/workout-guide" target="_blank" rel="noopener">
-        <h3>bryllim/workout-guide</h3>
-      </a>
-      <span class="lang">Astro</span>
-    </header>
-    <p class="desc">302 open exercise illustrations and a framework-neutral npm package by Bryl Lim</p>
-    <footer>
-      <span>⭐ 883</span>
-      <span>🍴 139</span>
-      <span class="today">🔥 883 stars total</span>
-    </footer>
-  </article>
-
-  <article class="repo">
-    <header>
-      <a href="https://github.com/soul-99/SU_IMD" target="_blank" rel="noopener">
-        <h3>soul-99/SU_IMD</h3>
-      </a>
-      <span class="lang">Kotlin</span>
-    </header>
-    <p class="desc">Use your blocked apps (banking apps, payment apps...) without turning developer settings, debugging, accessibility services, Display over other apps or Shizuku off-on by hand everytime.</p>
-    <footer>
-      <span>⭐ 204</span>
-      <span>🍴 10</span>
-      <span class="today">🔥 204 stars total</span>
-    </footer>
-  </article>
-
-      </div>
-    </section>
-  
+    <div class="list">
+            
+              <article class="entry">
+                <header>
+                  <h2><a href="./2026-08-27/">2026-08-27 周报</a></h2>
+                  <div class="meta">8 个项目 · 生成于 2026-08-27</div>
+                </header>
+                <div class="top3">
+                  
+                    <div class="item">
+                      <a href="https://github.com/openai/gpt-oss" target="_blank" rel="noopener">openai/gpt-oss</a>
+                      <span class="badge">AI / 大模型 / Agent</span>
+                      <p>Open-source GPT models for self-hosted inference.</p>
+                    </div>
+                  
+                    <div class="item">
+                      <a href="https://github.com/anthropics/claude-agent-sdk" target="_blank" rel="noopener">anthropics/claude-agent-sdk</a>
+                      <span class="badge">AI / 大模型 / Agent</span>
+                      <p>Build production Claude agents in 10 lines.</p>
+                    </div>
+                  
+                    <div class="item">
+                      <a href="https://github.com/withastro/astro" target="_blank" rel="noopener">withastro/astro</a>
+                      <span class="badge">编程 / 开发 / 开发者工具</span>
+                      <p>The web framework for content-driven websites.</p>
+                    </div>
+                  
+                    <div class="item">
+                      <a href="https://github.com/denoland/deno" target="_blank" rel="noopener">denoland/deno</a>
+                      <span class="badge">编程 / 开发 / 开发者工具</span>
+                      <p>A modern runtime for JavaScript and TypeScript.</p>
+                    </div>
+                  
+                    <div class="item">
+                      <a href="https://github.com/tauri-apps/tauri" target="_blank" rel="noopener">tauri-apps/tauri</a>
+                      <span class="badge">科技数码 / 互联网产品</span>
+                      <p>Build smaller, faster, more secure desktop apps.</p>
+                    </div>
+                  
+                    <div class="item">
+                      <a href="https://github.com/mitchellh/ghostty" target="_blank" rel="noopener">mitchellh/ghostty</a>
+                      <span class="badge">其他</span>
+                      <p>A fast, native, feature-rich terminal emulator.</p>
+                    </div>
+                  
+                </div>
+              </article>
+            
+          </div>
 
     <footer class="bottom">
       由 <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a> 自动生成 ·

@@ -15,11 +15,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 历史归档：把上一次的 dist 拉回来，避免被 force_orphan 清空
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Restore previous dist (gh-pages archive)
+        run: |
+          if git ls-remote --heads origin gh-pages | grep -q gh-pages; then
+            git fetch origin gh-pages
+            git checkout gh-pages -- dist/ || true
+          fi
 
       - name: Fetch trending repos
         env:
@@ -29,18 +39,11 @@ jobs:
       - name: Build report page
         run: node scripts/build.mjs
 
-      - name: Commit report
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/
-          git diff --staged --quiet || git commit -m "chore: weekly digest $(date -u +%Y-%m-%d)"
-          git push
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
-          force_orphan: true
+          force_orphan: false
+          keep_files: true
