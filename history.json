@@ -1,92 +1,92 @@
 [
   {
-    "date": "2026-08-30",
-    "generated_at": "2026-08-30T03:27:23.668Z",
-    "url": "./2026-08-30/",
-    "total": 25,
+    "date": "2026-09-06",
+    "generated_at": "2026-09-06T02:46:30.451Z",
+    "url": "./2026-09-06/",
+    "total": 22,
     "repos": [
       {
-        "full_name": "bryllim/workout-guide",
-        "url": "https://github.com/bryllim/workout-guide",
-        "description": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
-        "stars": 1006,
-        "bucket": "编程 / 开发 / 开发者工具"
-      },
-      {
-        "full_name": "amosblomqvist/learn",
-        "url": "https://github.com/amosblomqvist/learn",
-        "description": "My AI learning system.",
-        "stars": 784,
+        "full_name": "anthropics/commerce-agents",
+        "url": "https://github.com/anthropics/commerce-agents",
+        "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+        "stars": 2059,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "MetaMask-AI/metamask-desktop",
-        "url": "https://github.com/MetaMask-AI/metamask-desktop",
-        "description": "🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
-        "stars": 758,
+        "full_name": "GangTailorUpgrade/undress-service",
+        "url": "https://github.com/GangTailorUpgrade/undress-service",
+        "description": "Dress AI Sponsor",
+        "stars": 1094,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "Nanako0129/sepia",
-        "url": "https://github.com/Nanako0129/sepia",
-        "description": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-        "stars": 681,
+        "full_name": "2akouwu/reverify",
+        "url": "https://github.com/2akouwu/reverify",
+        "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+        "stars": 925,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "crmne/fastpotify",
-        "url": "https://github.com/crmne/fastpotify",
-        "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
-        "stars": 509,
-        "bucket": "编程 / 开发 / 开发者工具"
-      },
-      {
-        "full_name": "POUND0423/AI-drama-pound",
-        "url": "https://github.com/POUND0423/AI-drama-pound",
-        "description": "",
-        "stars": 508,
+        "full_name": "Human-Agent-Society/reef",
+        "url": "https://github.com/Human-Agent-Society/reef",
+        "description": "Continual learning infra for self-improving agents",
+        "stars": 482,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "chrisgreg/boop",
-        "url": "https://github.com/chrisgreg/boop",
-        "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
-        "stars": 483,
-        "bucket": "编程 / 开发 / 开发者工具"
-      },
-      {
-        "full_name": "gtlhuyidan-sketch/life-ipo",
-        "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
-        "description": "人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。",
-        "stars": 450,
+        "full_name": "Albert-Weasker/niubigeo",
+        "url": "https://github.com/Albert-Weasker/niubigeo",
+        "description": "Open-source AI brand visibility and competitor reports",
+        "stars": 460,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "kacperkapusciak/goldie",
-        "url": "https://github.com/kacperkapusciak/goldie",
-        "description": "✨ agentic app store previews and screenshots",
-        "stars": 427,
+        "full_name": "Rion-Wu-tech/wechat-intelligence-hub",
+        "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+        "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+        "stars": 453,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "OnlyTerp/opengrok",
-        "url": "https://github.com/OnlyTerp/opengrok",
-        "description": "Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.",
-        "stars": 370,
-        "bucket": "编程 / 开发 / 开发者工具"
-      },
-      {
-        "full_name": "leopard627/fire-your-seo-agency",
-        "url": "https://github.com/leopard627/fire-your-seo-agency",
-        "description": "Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver) by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다",
-        "stars": 345,
+        "full_name": "yilujian/easy-writing",
+        "url": "https://github.com/yilujian/easy-writing",
+        "description": "易创：纯本地、开源的 AI 网文写作桌面软件，支持小说创作、AI 辅助写作、BYOK 与自定义提示词。",
+        "stars": 337,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "cbrock84/headcount",
-        "url": "https://github.com/cbrock84/headcount",
-        "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
-        "stars": 301,
+        "full_name": "kydlikebtc/awesome-grokbot",
+        "url": "https://github.com/kydlikebtc/awesome-grokbot",
+        "description": "532 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+        "stars": 325,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "LunarXuan/image-prompt-reverse",
+        "url": "https://github.com/LunarXuan/image-prompt-reverse",
+        "description": "High-fidelity AI image prompt reverse-engineering skill for Codex",
+        "stars": 296,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "vinzdg/codenotch",
+        "url": "https://github.com/vinzdg/codenotch",
+        "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+        "stars": 272,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "pierrenade/short-video-generator-AI",
+        "url": "https://github.com/pierrenade/short-video-generator-AI",
+        "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+        "stars": 263,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "gozen3ji/consulting-pptx-skill",
+        "url": "https://github.com/gozen3ji/consulting-pptx-skill",
+        "description": "AIにまじなPPTXを作らせるClaude Codeスキル — スライド規約＋62型スライド型カタログ（SlideSpec 36型＋自由記述27パーツ）＋生成パイプライン＋機械チェック",
+        "stars": 239,
         "bucket": "AI / 大模型 / Agent"
       }
     ]
