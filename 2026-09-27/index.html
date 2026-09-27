@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GitHub Weekly Digest · 2026-09-27</title>
+  <style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --text: #e6edf3;
+    --muted: #8b949e; --accent: #2f81f7; --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
+  header.top h1 { font-size: 28px; margin: 0 0 8px; }
+  header.top .meta { color: var(--muted); font-size: 14px; }
+  section.group { margin: 40px 0; }
+  section.group h2 {
+    font-size: 20px; margin: 0 0 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  section.group h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
+  .grid {
+    display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .repo {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .repo:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .repo header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .repo h3 { margin: 0; font-size: 15px; }
+  .repo a { color: var(--accent); text-decoration: none; }
+  .repo a:hover { text-decoration: underline; }
+  .lang {
+    font-size: 12px; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 8px; white-space: nowrap;
+  }
+  .desc { margin: 0; color: #c9d1d9; font-size: 14px; min-height: 38px; }
+  .repo footer { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
+  .today { color: #f0883e; }
+  footer.bottom {
+    margin-top: 64px; padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  footer.bottom a { color: var(--accent); text-decoration: none; }
+  .back { display: inline-block; color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .back:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../">← 返回历史</a>
+    <header class="top">
+      <h1>📦 GitHub Weekly Digest</h1>
+      <div class="meta">生成于 2026-09-27 · 共 20 个项目</div>
+    </header>
+    
+    <section class="group">
+      <h2>AI / 大模型 / Agent <small>(15)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/unreallabsai/unreal-agent" target="_blank" rel="noopener">
+        <h3>unreallabsai/unreal-agent</h3>
+      </a>
+      <span class="lang">Go</span>
+    </header>
+    <p class="desc">Async-first agent harness</p>
+    <footer>
+      <span>⭐ 1,970</span>
+      <span>🍴 103</span>
+      <span class="today">🔥 1970 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/yetone/magpie" target="_blank" rel="noopener">
+        <h3>yetone/magpie</h3>
+      </a>
+      <span class="lang">Go</span>
+    </header>
+    <p class="desc">Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</p>
+    <footer>
+      <span>⭐ 1,057</span>
+      <span>🍴 63</span>
+      <span class="today">🔥 1057 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/mikehasa/golive-skill" target="_blank" rel="noopener">
+        <h3>mikehasa/golive-skill</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.</p>
+    <footer>
+      <span>⭐ 981</span>
+      <span>🍴 68</span>
+      <span class="today">🔥 981 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/nokia-applied-research/AnyJev" target="_blank" rel="noopener">
+        <h3>nokia-applied-research/AnyJev</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)</p>
+    <footer>
+      <span>⭐ 799</span>
+      <span>🍴 106</span>
+      <span class="today">🔥 799 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/freestylefly/WeChatBridge" target="_blank" rel="noopener">
+        <h3>freestylefly/WeChatBridge</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具</p>
+    <footer>
+      <span>⭐ 798</span>
+      <span>🍴 301</span>
+      <span class="today">🔥 798 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/asokurasu/text-humanizer" target="_blank" rel="noopener">
+        <h3>asokurasu/text-humanizer</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. </p>
+    <footer>
+      <span>⭐ 732</span>
+      <span>🍴 83</span>
+      <span class="today">🔥 732 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/yukitorido/short-video-generator-AI" target="_blank" rel="noopener">
+        <h3>yukitorido/short-video-generator-AI</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing</p>
+    <footer>
+      <span>⭐ 718</span>
+      <span>🍴 82</span>
+      <span class="today">🔥 718 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Rizzo-AI-Academy/rizzo-flow" target="_blank" rel="noopener">
+        <h3>Rizzo-AI-Academy/rizzo-flow</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">The open, local take on Jev: typed decisions from an LLM, without generating a single token</p>
+    <footer>
+      <span>⭐ 623</span>
+      <span>🍴 37</span>
+      <span class="today">🔥 623 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/saragordic/rooms" target="_blank" rel="noopener">
+        <h3>saragordic/rooms</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away.</p>
+    <footer>
+      <span>⭐ 317</span>
+      <span>🍴 13</span>
+      <span class="today">🔥 317 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/bridge-mind/bridgeclip" target="_blank" rel="noopener">
+        <h3>bridge-mind/bridgeclip</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Open-source AI video clipping desktop app by BridgeMind</p>
+    <footer>
+      <span>⭐ 269</span>
+      <span>🍴 59</span>
+      <span class="today">🔥 269 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/edison-land/paragravity" target="_blank" rel="noopener">
+        <h3>edison-land/paragravity</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Native, non-invasive parallel multi-account &amp; sandbox manager for Google Antigravity</p>
+    <footer>
+      <span>⭐ 216</span>
+      <span>🍴 18</span>
+      <span class="today">🔥 216 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/timoncool/YuE2-Studio" target="_blank" rel="noopener">
+        <h3>timoncool/YuE2-Studio</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.</p>
+    <footer>
+      <span>⭐ 194</span>
+      <span>🍴 15</span>
+      <span class="today">🔥 194 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/dzhng/jevgrep" target="_blank" rel="noopener">
+        <h3>dzhng/jevgrep</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.</p>
+    <footer>
+      <span>⭐ 184</span>
+      <span>🍴 10</span>
+      <span class="today">🔥 184 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/HeyPuter/builder" target="_blank" rel="noopener">
+        <h3>HeyPuter/builder</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0, and similar platforms.</p>
+    <footer>
+      <span>⭐ 129</span>
+      <span>🍴 32</span>
+      <span class="today">🔥 129 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/tugrawork-creator/saas-motion-kit" target="_blank" rel="noopener">
+        <h3>tugrawork-creator/saas-motion-kit</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Promo &amp; motion videos for software products with HyperFrames + Claude Code. No two films should feel the same: tone matrix, variety audit, 24-transition atlas, 100 storyboard themes.</p>
+    <footer>
+      <span>⭐ 128</span>
+      <span>🍴 12</span>
+      <span class="today">🔥 128 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>编程 / 开发 / 开发者工具 <small>(3)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/sopersone/cabbage-trading-machine" target="_blank" rel="noopener">
+        <h3>sopersone/cabbage-trading-machine</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework.</p>
+    <footer>
+      <span>⭐ 248</span>
+      <span>🍴 60</span>
+      <span class="today">🔥 248 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/ashleydarosa/CC-Checker-Validator-Generator" target="_blank" rel="noopener">
+        <h3>ashleydarosa/CC-Checker-Validator-Generator</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Python CLI toolkit for payment QA: generate and validate synthetic Luhn-valid card numbers by brand, BIN, or custom pattern. Supports Visa, Mastercard, Amex, Discover and more, plus BIN/IIN lookup, expiry/CVV checks, bulk validation, masking, and TXT/CSV/JSON export. Offline and cross-platform.</p>
+    <footer>
+      <span>⭐ 193</span>
+      <span>🍴 41</span>
+      <span class="today">🔥 193 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Roberto02800/turnstile-token" target="_blank" rel="noopener">
+        <h3>Roberto02800/turnstile-token</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">A small Python CLI and library for Cloudflare Turnstile token - discover the sitekey, create a cf-turnstile-response token, and replay the browser identity</p>
+    <footer>
+      <span>⭐ 143</span>
+      <span>🍴 23</span>
+      <span class="today">🔥 143 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>其他 <small>(2)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/jev-chat/jev-chat-jarvis" target="_blank" rel="noopener">
+        <h3>jev-chat/jev-chat-jarvis</h3>
+      </a>
+      <span class="lang">Kotlin</span>
+    </header>
+    <p class="desc">装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。</p>
+    <footer>
+      <span>⭐ 6,685</span>
+      <span>🍴 1,154</span>
+      <span class="today">🔥 6685 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/jev-chat/jev-chat-windows" target="_blank" rel="noopener">
+        <h3>jev-chat/jev-chat-windows</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动</p>
+    <footer>
+      <span>⭐ 597</span>
+      <span>🍴 130</span>
+      <span class="today">🔥 597 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <footer class="bottom">
+      由 <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a> 自动生成 ·
+      数据源：<a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending</a>
+    </footer>
+  </div>
+</body>
+</html>
