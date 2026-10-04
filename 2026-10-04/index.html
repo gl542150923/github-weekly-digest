@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GitHub Weekly Digest · 2026-10-04</title>
+  <style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --text: #e6edf3;
+    --muted: #8b949e; --accent: #2f81f7; --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
+  header.top h1 { font-size: 28px; margin: 0 0 8px; }
+  header.top .meta { color: var(--muted); font-size: 14px; }
+  section.group { margin: 40px 0; }
+  section.group h2 {
+    font-size: 20px; margin: 0 0 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  section.group h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
+  .grid {
+    display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .repo {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .repo:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .repo header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .repo h3 { margin: 0; font-size: 15px; }
+  .repo a { color: var(--accent); text-decoration: none; }
+  .repo a:hover { text-decoration: underline; }
+  .lang {
+    font-size: 12px; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 8px; white-space: nowrap;
+  }
+  .desc { margin: 0; color: #c9d1d9; font-size: 14px; min-height: 38px; }
+  .repo footer { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
+  .today { color: #f0883e; }
+  footer.bottom {
+    margin-top: 64px; padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  footer.bottom a { color: var(--accent); text-decoration: none; }
+  .back { display: inline-block; color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .back:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../">← 返回历史</a>
+    <header class="top">
+      <h1>📦 GitHub Weekly Digest</h1>
+      <div class="meta">生成于 2026-10-04 · 共 20 个项目</div>
+    </header>
+    
+    <section class="group">
+      <h2>AI / 大模型 / Agent <small>(16)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/KKKKhazix/AIHOT" target="_blank" rel="noopener">
+        <h3>KKKKhazix/AIHOT</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。</p>
+    <footer>
+      <span>⭐ 5,479</span>
+      <span>🍴 1,431</span>
+      <span class="today">🔥 5479 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/CopilotKit/OpenDots" target="_blank" rel="noopener">
+        <h3>CopilotKit/OpenDots</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Your always-on AI coworkers that move between text, calls, and Slack.</p>
+    <footer>
+      <span>⭐ 2,623</span>
+      <span>🍴 325</span>
+      <span class="today">🔥 2623 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/feder-cr/dots" target="_blank" rel="noopener">
+        <h3>feder-cr/dots</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.</p>
+    <footer>
+      <span>⭐ 2,575</span>
+      <span>🍴 436</span>
+      <span class="today">🔥 2575 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/nanaism/yomiyasu" target="_blank" rel="noopener">
+        <h3>nanaism/yomiyasu</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese</p>
+    <footer>
+      <span>⭐ 1,330</span>
+      <span>🍴 29</span>
+      <span class="today">🔥 1330 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/edenfunf/reelmimic" target="_blank" rel="noopener">
+        <h3>edenfunf/reelmimic</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.</p>
+    <footer>
+      <span>⭐ 1,130</span>
+      <span>🍴 148</span>
+      <span class="today">🔥 1130 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/nykooi1/vibe-wise" target="_blank" rel="noopener">
+        <h3>nykooi1/vibe-wise</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">A Claude Code plugin that helps you learn how to build while AI writes the code.</p>
+    <footer>
+      <span>⭐ 744</span>
+      <span>🍴 41</span>
+      <span class="today">🔥 744 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Edwardxlai/easyread" target="_blank" rel="noopener">
+        <h3>Edwardxlai/easyread</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.</p>
+    <footer>
+      <span>⭐ 681</span>
+      <span>🍴 50</span>
+      <span class="today">🔥 681 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/composio-community/open-dot" target="_blank" rel="noopener">
+        <h3>composio-community/open-dot</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.</p>
+    <footer>
+      <span>⭐ 524</span>
+      <span>🍴 71</span>
+      <span class="today">🔥 524 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/QingYunA/answer-me-with-html" target="_blank" rel="noopener">
+        <h3>QingYunA/answer-me-with-html</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。</p>
+    <footer>
+      <span>⭐ 455</span>
+      <span>🍴 39</span>
+      <span class="today">🔥 455 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/oil-oil/oil-ui" target="_blank" rel="noopener">
+        <h3>oil-oil/oil-ui</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">把 AI 的 UI 设计能力推到极限。</p>
+    <footer>
+      <span>⭐ 356</span>
+      <span>🍴 17</span>
+      <span class="today">🔥 356 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/whirlchat/whirl" target="_blank" rel="noopener">
+        <h3>whirlchat/whirl</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.</p>
+    <footer>
+      <span>⭐ 312</span>
+      <span>🍴 23</span>
+      <span class="today">🔥 312 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/blendi-remade/dioramas" target="_blank" rel="noopener">
+        <h3>blendi-remade/dioramas</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.</p>
+    <footer>
+      <span>⭐ 211</span>
+      <span>🍴 22</span>
+      <span class="today">🔥 211 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Jakeschincariol/replica-skill" target="_blank" rel="noopener">
+        <h3>Jakeschincariol/replica-skill</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.</p>
+    <footer>
+      <span>⭐ 153</span>
+      <span>🍴 13</span>
+      <span class="today">🔥 153 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/NuvexNetwork/nuvex" target="_blank" rel="noopener">
+        <h3>NuvexNetwork/nuvex</h3>
+      </a>
+      <span class="lang">Rust</span>
+    </header>
+    <p class="desc">Solana-native verifiable compute and oracle protocol.  Programs accept a job, an input, constraints, and a callback. Randomness is the first job. An active node can fulfill a VRF request with an ECVRF proof after it locks the configured stake and sends a heartbeat. Fees still do not move.</p>
+    <footer>
+      <span>⭐ 151</span>
+      <span>🍴 69</span>
+      <span class="today">🔥 151 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/omlahore/RemoveMacAI" target="_blank" rel="noopener">
+        <h3>omlahore/RemoveMacAI</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.</p>
+    <footer>
+      <span>⭐ 146</span>
+      <span>🍴 5</span>
+      <span class="today">🔥 146 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/apromisedland/Tame_3D" target="_blank" rel="noopener">
+        <h3>apromisedland/Tame_3D</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Tame3D research framework: evidence-grounded multi-agent 3D reasoning with scene-level conformal uncertainty alignment</p>
+    <footer>
+      <span>⭐ 101</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 101 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>编程 / 开发 / 开发者工具 <small>(2)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/mizorewww/x_gift_bot" target="_blank" rel="noopener">
+        <h3>mizorewww/x_gift_bot</h3>
+      </a>
+      <span class="lang">Go</span>
+    </header>
+    <p class="desc">X Premium gift CLI and redemption site</p>
+    <footer>
+      <span>⭐ 196</span>
+      <span>🍴 96</span>
+      <span class="today">🔥 196 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/lxj5820/dsh-boot-animation" target="_blank" rel="noopener">
+        <h3>lxj5820/dsh-boot-animation</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">DSH plugin: replaces the kernel boot page with a full-window video clip, then dissolves into the app. 中文说明见 MANUAL.md</p>
+    <footer>
+      <span>⭐ 101</span>
+      <span>🍴 3</span>
+      <span class="today">🔥 101 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>科技数码 / 互联网产品 <small>(1)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/rbrown101010/bluey-by-riley" target="_blank" rel="noopener">
+        <h3>rbrown101010/bluey-by-riley</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">Googly Eyes: a blueberry character on iPhone that points and acts on your Mac (Mac menu bar app + iOS app)</p>
+    <footer>
+      <span>⭐ 137</span>
+      <span>🍴 34</span>
+      <span class="today">🔥 137 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>其他 <small>(1)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/ACoci86/terrahour" target="_blank" rel="noopener">
+        <h3>ACoci86/terrahour</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">A world clock for the terminal, with a day and night map and a 24-hour timeline to find a time that works across time zones.</p>
+    <footer>
+      <span>⭐ 104</span>
+      <span>🍴 3</span>
+      <span class="today">🔥 104 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <footer class="bottom">
+      由 <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a> 自动生成 ·
+      数据源：<a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,92 +1,92 @@
 [
   {
-    "date": "2026-09-27",
-    "generated_at": "2026-09-27T03:30:51.640Z",
-    "url": "./2026-09-27/",
+    "date": "2026-10-04",
+    "generated_at": "2026-10-04T04:10:14.729Z",
+    "url": "./2026-10-04/",
     "total": 20,
     "repos": [
       {
-        "full_name": "jev-chat/jev-chat-jarvis",
-        "url": "https://github.com/jev-chat/jev-chat-jarvis",
-        "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-        "stars": 6685,
-        "bucket": "其他"
-      },
-      {
-        "full_name": "unreallabsai/unreal-agent",
-        "url": "https://github.com/unreallabsai/unreal-agent",
-        "description": "Async-first agent harness",
-        "stars": 1970,
+        "full_name": "KKKKhazix/AIHOT",
+        "url": "https://github.com/KKKKhazix/AIHOT",
+        "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+        "stars": 5479,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "yetone/magpie",
-        "url": "https://github.com/yetone/magpie",
-        "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-        "stars": 1057,
+        "full_name": "CopilotKit/OpenDots",
+        "url": "https://github.com/CopilotKit/OpenDots",
+        "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+        "stars": 2623,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "mikehasa/golive-skill",
-        "url": "https://github.com/mikehasa/golive-skill",
-        "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
-        "stars": 981,
+        "full_name": "feder-cr/dots",
+        "url": "https://github.com/feder-cr/dots",
+        "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+        "stars": 2575,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "nokia-applied-research/AnyJev",
-        "url": "https://github.com/nokia-applied-research/AnyJev",
-        "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
-        "stars": 799,
+        "full_name": "nanaism/yomiyasu",
+        "url": "https://github.com/nanaism/yomiyasu",
+        "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+        "stars": 1330,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "freestylefly/WeChatBridge",
-        "url": "https://github.com/freestylefly/WeChatBridge",
-        "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
-        "stars": 798,
+        "full_name": "edenfunf/reelmimic",
+        "url": "https://github.com/edenfunf/reelmimic",
+        "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+        "stars": 1130,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "asokurasu/text-humanizer",
-        "url": "https://github.com/asokurasu/text-humanizer",
-        "description": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. ",
-        "stars": 732,
+        "full_name": "nykooi1/vibe-wise",
+        "url": "https://github.com/nykooi1/vibe-wise",
+        "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
+        "stars": 744,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "yukitorido/short-video-generator-AI",
-        "url": "https://github.com/yukitorido/short-video-generator-AI",
-        "description": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
-        "stars": 718,
+        "full_name": "Edwardxlai/easyread",
+        "url": "https://github.com/Edwardxlai/easyread",
+        "description": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+        "stars": 681,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "Rizzo-AI-Academy/rizzo-flow",
-        "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
-        "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
-        "stars": 623,
+        "full_name": "composio-community/open-dot",
+        "url": "https://github.com/composio-community/open-dot",
+        "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
+        "stars": 524,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "jev-chat/jev-chat-windows",
-        "url": "https://github.com/jev-chat/jev-chat-windows",
-        "description": "JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
-        "stars": 597,
-        "bucket": "其他"
-      },
-      {
-        "full_name": "saragordic/rooms",
-        "url": "https://github.com/saragordic/rooms",
-        "description": "Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away.",
-        "stars": 317,
+        "full_name": "QingYunA/answer-me-with-html",
+        "url": "https://github.com/QingYunA/answer-me-with-html",
+        "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+        "stars": 455,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "bridge-mind/bridgeclip",
-        "url": "https://github.com/bridge-mind/bridgeclip",
-        "description": "Open-source AI video clipping desktop app by BridgeMind",
-        "stars": 269,
+        "full_name": "oil-oil/oil-ui",
+        "url": "https://github.com/oil-oil/oil-ui",
+        "description": "把 AI 的 UI 设计能力推到极限。",
+        "stars": 356,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "whirlchat/whirl",
+        "url": "https://github.com/whirlchat/whirl",
+        "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+        "stars": 312,
+        "bucket": "AI / 大模型 / Agent"
+      },
+      {
+        "full_name": "blendi-remade/dioramas",
+        "url": "https://github.com/blendi-remade/dioramas",
+        "description": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+        "stars": 211,
         "bucket": "AI / 大模型 / Agent"
       }
     ]
