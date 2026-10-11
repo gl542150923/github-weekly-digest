@@ -1,93 +1,93 @@
 [
   {
-    "date": "2026-10-04",
-    "generated_at": "2026-10-04T04:10:14.729Z",
-    "url": "./2026-10-04/",
-    "total": 20,
+    "date": "2026-10-11",
+    "generated_at": "2026-10-11T03:48:38.231Z",
+    "url": "./2026-10-11/",
+    "total": 26,
     "repos": [
       {
-        "full_name": "KKKKhazix/AIHOT",
-        "url": "https://github.com/KKKKhazix/AIHOT",
-        "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-        "stars": 5479,
+        "full_name": "mhtsec/ARTEX",
+        "url": "https://github.com/mhtsec/ARTEX",
+        "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+        "stars": 2951,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "CopilotKit/OpenDots",
-        "url": "https://github.com/CopilotKit/OpenDots",
-        "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-        "stars": 2623,
+        "full_name": "zhongerxin/iPhone-use",
+        "url": "https://github.com/zhongerxin/iPhone-use",
+        "description": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。",
+        "stars": 2615,
+        "bucket": "科技数码 / 互联网产品"
+      },
+      {
+        "full_name": "LosaLosSantos/aurelio-finance",
+        "url": "https://github.com/LosaLosSantos/aurelio-finance",
+        "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+        "stars": 2094,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "feder-cr/dots",
-        "url": "https://github.com/feder-cr/dots",
-        "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-        "stars": 2575,
+        "full_name": "storytold/cadcraft",
+        "url": "https://github.com/storytold/cadcraft",
+        "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+        "stars": 1923,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "nanaism/yomiyasu",
-        "url": "https://github.com/nanaism/yomiyasu",
-        "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-        "stars": 1330,
+        "full_name": "alejandrobujan/tendedero",
+        "url": "https://github.com/alejandrobujan/tendedero",
+        "description": "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
+        "stars": 1614,
+        "bucket": "科技数码 / 互联网产品"
+      },
+      {
+        "full_name": "storytold/deckcraft",
+        "url": "https://github.com/storytold/deckcraft",
+        "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+        "stars": 1452,
+        "bucket": "编程 / 开发 / 开发者工具"
+      },
+      {
+        "full_name": "elstongun/leviathan",
+        "url": "https://github.com/elstongun/leviathan",
+        "description": "Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+        "stars": 732,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "edenfunf/reelmimic",
-        "url": "https://github.com/edenfunf/reelmimic",
-        "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-        "stars": 1130,
+        "full_name": "ThariqS/ai-newtab",
+        "url": "https://github.com/ThariqS/ai-newtab",
+        "description": "Claude generates a daily new tab page based on your browser history.",
+        "stars": 697,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "nykooi1/vibe-wise",
-        "url": "https://github.com/nykooi1/vibe-wise",
-        "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
-        "stars": 744,
+        "full_name": "navyofficerpipe/Discord-Server-Raider",
+        "url": "https://github.com/navyofficerpipe/Discord-Server-Raider",
+        "description": "Discord Server Raider\", an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it...",
+        "stars": 605,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "Edwardxlai/easyread",
-        "url": "https://github.com/Edwardxlai/easyread",
-        "description": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-        "stars": 681,
+        "full_name": "franzenzenhofer/big-arrow-on-the-screen",
+        "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+        "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+        "stars": 594,
         "bucket": "AI / 大模型 / Agent"
       },
       {
-        "full_name": "composio-community/open-dot",
-        "url": "https://github.com/composio-community/open-dot",
-        "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
-        "stars": 524,
-        "bucket": "AI / 大模型 / Agent"
+        "full_name": "storytold/craft-launcher",
+        "url": "https://github.com/storytold/craft-launcher",
+        "description": "The Craft App Launcher",
+        "stars": 552,
+        "bucket": "科技数码 / 互联网产品"
       },
       {
-        "full_name": "QingYunA/answer-me-with-html",
-        "url": "https://github.com/QingYunA/answer-me-with-html",
-        "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-        "stars": 455,
-        "bucket": "AI / 大模型 / Agent"
-      },
-      {
-        "full_name": "oil-oil/oil-ui",
-        "url": "https://github.com/oil-oil/oil-ui",
-        "description": "把 AI 的 UI 设计能力推到极限。",
-        "stars": 356,
-        "bucket": "AI / 大模型 / Agent"
-      },
-      {
-        "full_name": "whirlchat/whirl",
-        "url": "https://github.com/whirlchat/whirl",
-        "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
-        "stars": 312,
-        "bucket": "AI / 大模型 / Agent"
-      },
-      {
-        "full_name": "blendi-remade/dioramas",
-        "url": "https://github.com/blendi-remade/dioramas",
-        "description": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-        "stars": 211,
-        "bucket": "AI / 大模型 / Agent"
+        "full_name": "wesbos/photo-frame-dashboard",
+        "url": "https://github.com/wesbos/photo-frame-dashboard",
+        "description": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
+        "stars": 551,
+        "bucket": "科技数码 / 互联网产品"
       }
     ]
   },

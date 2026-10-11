@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GitHub Weekly Digest · 2026-10-11</title>
+  <style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --text: #e6edf3;
+    --muted: #8b949e; --accent: #2f81f7; --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
+  header.top h1 { font-size: 28px; margin: 0 0 8px; }
+  header.top .meta { color: var(--muted); font-size: 14px; }
+  section.group { margin: 40px 0; }
+  section.group h2 {
+    font-size: 20px; margin: 0 0 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  section.group h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
+  .grid {
+    display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .repo {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .repo:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .repo header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .repo h3 { margin: 0; font-size: 15px; }
+  .repo a { color: var(--accent); text-decoration: none; }
+  .repo a:hover { text-decoration: underline; }
+  .lang {
+    font-size: 12px; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 8px; white-space: nowrap;
+  }
+  .desc { margin: 0; color: #c9d1d9; font-size: 14px; min-height: 38px; }
+  .repo footer { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
+  .today { color: #f0883e; }
+  footer.bottom {
+    margin-top: 64px; padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  footer.bottom a { color: var(--accent); text-decoration: none; }
+  .back { display: inline-block; color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .back:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../">← 返回历史</a>
+    <header class="top">
+      <h1>📦 GitHub Weekly Digest</h1>
+      <div class="meta">生成于 2026-10-11 · 共 26 个项目</div>
+    </header>
+    
+    <section class="group">
+      <h2>AI / 大模型 / Agent <small>(14)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/mhtsec/ARTEX" target="_blank" rel="noopener">
+        <h3>mhtsec/ARTEX</h3>
+      </a>
+      <span class="lang">Go</span>
+    </header>
+    <p class="desc">AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目</p>
+    <footer>
+      <span>⭐ 2,951</span>
+      <span>🍴 5,371</span>
+      <span class="today">🔥 2951 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/LosaLosSantos/aurelio-finance" target="_blank" rel="noopener">
+        <h3>LosaLosSantos/aurelio-finance</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.</p>
+    <footer>
+      <span>⭐ 2,094</span>
+      <span>🍴 215</span>
+      <span class="today">🔥 2094 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/storytold/cadcraft" target="_blank" rel="noopener">
+        <h3>storytold/cadcraft</h3>
+      </a>
+      <span class="lang">Rust</span>
+    </header>
+    <p class="desc">CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust</p>
+    <footer>
+      <span>⭐ 1,923</span>
+      <span>🍴 820</span>
+      <span class="today">🔥 1923 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/elstongun/leviathan" target="_blank" rel="noopener">
+        <h3>elstongun/leviathan</h3>
+      </a>
+      <span class="lang">Rust</span>
+    </header>
+    <p class="desc">Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.</p>
+    <footer>
+      <span>⭐ 732</span>
+      <span>🍴 39</span>
+      <span class="today">🔥 732 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/ThariqS/ai-newtab" target="_blank" rel="noopener">
+        <h3>ThariqS/ai-newtab</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Claude generates a daily new tab page based on your browser history.</p>
+    <footer>
+      <span>⭐ 697</span>
+      <span>🍴 65</span>
+      <span class="today">🔥 697 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/navyofficerpipe/Discord-Server-Raider" target="_blank" rel="noopener">
+        <h3>navyofficerpipe/Discord-Server-Raider</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Discord Server Raider&quot;, an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it...</p>
+    <footer>
+      <span>⭐ 605</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 605 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/franzenzenhofer/big-arrow-on-the-screen" target="_blank" rel="noopener">
+        <h3>franzenzenhofer/big-arrow-on-the-screen</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.</p>
+    <footer>
+      <span>⭐ 594</span>
+      <span>🍴 10</span>
+      <span class="today">🔥 594 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/sirioberati/Genjustsu-Open-Source-Workflow" target="_blank" rel="noopener">
+        <h3>sirioberati/Genjustsu-Open-Source-Workflow</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI to prepare inputs, review masks, preview generations, and export with original audio.</p>
+    <footer>
+      <span>⭐ 497</span>
+      <span>🍴 145</span>
+      <span class="today">🔥 497 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/rociiu/talorys" target="_blank" rel="noopener">
+        <h3>rociiu/talorys</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.</p>
+    <footer>
+      <span>⭐ 431</span>
+      <span>🍴 31</span>
+      <span class="today">🔥 431 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/iamlukethedev/Herald-OS" target="_blank" rel="noopener">
+        <h3>iamlukethedev/Herald-OS</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.</p>
+    <footer>
+      <span>⭐ 407</span>
+      <span>🍴 56</span>
+      <span class="today">🔥 407 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/mushigaite/short-video-maker" target="_blank" rel="noopener">
+        <h3>mushigaite/short-video-maker</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.</p>
+    <footer>
+      <span>⭐ 291</span>
+      <span>🍴 75</span>
+      <span class="today">🔥 291 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Freeiuannihilate/Imei-Repair" target="_blank" rel="noopener">
+        <h3>Freeiuannihilate/Imei-Repair</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Aiding developers in crafting advanced AI-driven solutions without iOS mobile device concerns, Imei Repair Free offers a seamless platform providing...</p>
+    <footer>
+      <span>⭐ 200</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 200 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/CrocSwap/integer-mult-bounds" target="_blank" rel="noopener">
+        <h3>CrocSwap/integer-mult-bounds</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">Conditional integer multiplication: kappa &gt; 2^-15. Community proofs, exact certificates and reproducible audits; assumes the OpenAI #109 framework.</p>
+    <footer>
+      <span>⭐ 173</span>
+      <span>🍴 70</span>
+      <span class="today">🔥 173 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/excalidraw/cli" target="_blank" rel="noopener">
+        <h3>excalidraw/cli</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Official Excalidraw CLI for humans and agents</p>
+    <footer>
+      <span>⭐ 110</span>
+      <span>🍴 5</span>
+      <span class="today">🔥 110 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>编程 / 开发 / 开发者工具 <small>(6)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/storytold/deckcraft" target="_blank" rel="noopener">
+        <h3>storytold/deckcraft</h3>
+      </a>
+      <span class="lang">Rust</span>
+    </header>
+    <p class="desc">Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.</p>
+    <footer>
+      <span>⭐ 1,452</span>
+      <span>🍴 676</span>
+      <span class="today">🔥 1452 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/hyperrobinclash/Better-Discord" target="_blank" rel="noopener">
+        <h3>hyperrobinclash/Better-Discord</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Enhances productivity by streamlining your professional desktop software utility configurations with an innovative configuration manager that provides a...</p>
+    <footer>
+      <span>⭐ 503</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 503 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/CoastFiscalDeflate/ultra-Iso" target="_blank" rel="noopener">
+        <h3>CoastFiscalDeflate/ultra-Iso</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Ultra Iso is a professional desktop software utility configuration that optimizes system efficiency by providing pre-activated framework for seamless...</p>
+    <footer>
+      <span>⭐ 302</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 302 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/LookoutBakerType/PH-Downloader" target="_blank" rel="noopener">
+        <h3>LookoutBakerType/PH-Downloader</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Ph Down is a professional desktop configuration utility that meticulously optimizes your system's performance by providing an unparalleled framework...</p>
+    <footer>
+      <span>⭐ 203</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 203 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/ApexFlameBurst/Cinema-4d" target="_blank" rel="noopener">
+        <h3>ApexFlameBurst/Cinema-4d</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Integrate professional desktop software utility configurations seamlessly with this unique Cinema 4D setup that provides a pre-activated framework...</p>
+    <footer>
+      <span>⭐ 199</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 199 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Stellar-Clear/clearledger" target="_blank" rel="noopener">
+        <h3>Stellar-Clear/clearledger</h3>
+      </a>
+      <span class="lang">TypeScript</span>
+    </header>
+    <p class="desc">Invoice finance infrastructure on Stellar: Soroban contracts, a Next.js app, TypeScript SDK and CLI, and Go indexer for USDC-backed workflows.</p>
+    <footer>
+      <span>⭐ 131</span>
+      <span>🍴 128</span>
+      <span class="today">🔥 131 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <section class="group">
+      <h2>科技数码 / 互联网产品 <small>(6)</small></h2>
+      <div class="grid">
+        
+  <article class="repo">
+    <header>
+      <a href="https://github.com/zhongerxin/iPhone-use" target="_blank" rel="noopener">
+        <h3>zhongerxin/iPhone-use</h3>
+      </a>
+      <span class="lang">Python</span>
+    </header>
+    <p class="desc">让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</p>
+    <footer>
+      <span>⭐ 2,615</span>
+      <span>🍴 264</span>
+      <span class="today">🔥 2615 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/alejandrobujan/tendedero" target="_blank" rel="noopener">
+        <h3>alejandrobujan/tendedero</h3>
+      </a>
+      <span class="lang">Swift</span>
+    </header>
+    <p class="desc">Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.</p>
+    <footer>
+      <span>⭐ 1,614</span>
+      <span>🍴 135</span>
+      <span class="today">🔥 1614 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/storytold/craft-launcher" target="_blank" rel="noopener">
+        <h3>storytold/craft-launcher</h3>
+      </a>
+      <span class="lang">Rust</span>
+    </header>
+    <p class="desc">The Craft App Launcher</p>
+    <footer>
+      <span>⭐ 552</span>
+      <span>🍴 185</span>
+      <span class="today">🔥 552 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/wesbos/photo-frame-dashboard" target="_blank" rel="noopener">
+        <h3>wesbos/photo-frame-dashboard</h3>
+      </a>
+      <span class="lang">JavaScript</span>
+    </header>
+    <p class="desc">Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)</p>
+    <footer>
+      <span>⭐ 551</span>
+      <span>🍴 35</span>
+      <span class="today">🔥 551 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/Clawfitzfilter/Display-Fusion" target="_blank" rel="noopener">
+        <h3>Clawfitzfilter/Display-Fusion</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Display Fusion optimizes desktop software utility configurations by providing a robust and efficient management system that enhances productivity without...</p>
+    <footer>
+      <span>⭐ 509</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 509 stars total</span>
+    </footer>
+  </article>
+
+  <article class="repo">
+    <header>
+      <a href="https://github.com/ParrotStaple/Microsoft-Office" target="_blank" rel="noopener">
+        <h3>ParrotStaple/Microsoft-Office</h3>
+      </a>
+      <span class="lang">—</span>
+    </header>
+    <p class="desc">Microsoft Office optimizes professional desktop software utility configurations by providing a comprehensive suite of productivity tools that streamline...</p>
+    <footer>
+      <span>⭐ 305</span>
+      <span>🍴 0</span>
+      <span class="today">🔥 305 stars total</span>
+    </footer>
+  </article>
+
+      </div>
+    </section>
+  
+    <footer class="bottom">
+      由 <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a> 自动生成 ·
+      数据源：<a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending</a>
+    </footer>
+  </div>
+</body>
+</html>
